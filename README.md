@@ -29,7 +29,7 @@ You can install the package via Composer:
 composer require isend/laravel
 ```
 
-The package will automatically register itself using Laravel's package discovery. If you're using Laravel < 5.5, you'll need to register the service provider manually.
+The package will automatically register itself using Laravel's package discovery.
 
 ## Configuration
 
@@ -41,12 +41,7 @@ The easiest way to set up the package is by using the interactive setup command:
 php artisan isend:setup
 ```
 
-This command will:
-- Prompt you for your iSend API token
-- Ask for your default sender ID
-- Allow you to customize the API base URL if needed
-- Update your `.env` file automatically
-- Publish the configuration file
+This command will set up your API credentials and publish the config file in one step.
 
 ### Or, Manual Configuration
 
