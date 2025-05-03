@@ -2,6 +2,12 @@
 
 All notable changes to the `isend/laravel` package will be documented in this file.
 
+## 1.0.3 - 2025-05-03
+
+### Fixed
+- Fixed Laravel 11 and 12 compatibility by supporting both Orchestra Testbench v9 and v10
+- Improved PHPUnit compatibility with support for both v10 and v11
+
 ## 1.0.2 - 2025-05-03
 
 ### Updated
