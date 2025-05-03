@@ -77,30 +77,30 @@ ISEND_API_VERSION_PATH=/api/v3
 use ISend\SMS\Facades\ISend;
 
 // Fluent interface
-ISend::to('218929000835')
+ISend::to('218929000834')
     ->message('Your verification code is 1234')
     ->send();
 
 // Get the SMS ID for tracking
-$smsId = ISend::to('218929000835')
+$smsId = ISend::to('218929000834')
     ->message('Your verification code is 1234')
     ->send()
     ->getId();
 
 // Static helper method
-ISend::sendSms('218929000835', 'Your verification code is 1234');
+ISend::sendSms('218929000834', 'Your verification code is 1234');
 ```
 
 ### Multiple Recipients
 
 ```php
 // Send the same message to multiple recipients
-ISend::to(['218929000835', '218929000836', '218929000837'])
+ISend::to(['218929000834', '218929000836', '218929000837'])
     ->message('Important announcement for all users')
     ->send();
 
 // Or as a comma-separated string
-ISend::to('218929000835,218929000836,218929000837')
+ISend::to('218929000834,218929000835,218929000836')
     ->message('Important announcement for all users')
     ->send();
 ```
@@ -108,7 +108,7 @@ ISend::to('218929000835,218929000836,218929000837')
 ### Custom Sender ID
 
 ```php
-ISend::to('218929000835')
+ISend::to('218929000834')
     ->from('MyApp')  // Override the default sender ID
     ->message('Your verification code is 1234')
     ->send();
@@ -118,7 +118,7 @@ ISend::to('218929000835')
 
 ```php
 // Schedule a message for future delivery
-ISend::to('218929000835')
+ISend::to('218929000834')
     ->message('Reminder: Your appointment is tomorrow')
     ->scheduleAt('2025-12-31 09:00:00')  // Format: Y-m-d H:i
     ->send();
@@ -128,7 +128,7 @@ ISend::to('218929000835')
 
 ```php
 // For regions requiring DLT template registration
-ISend::to('218929000835')
+ISend::to('218929000834')
     ->message('Your OTP is 1234')
     ->dltTemplateId('template-123')
     ->send();
@@ -241,7 +241,7 @@ try {
 For debugging purposes, you can access the last API response:
 
 ```php
-$response = ISend::to('218929000835')
+$response = ISend::to('218929000834')
     ->message('Test message')
     ->send()
     ->getLastResponse();
