@@ -1,7 +1,7 @@
 # iSend SMS Laravel Package
 
 ![GitHub License](https://img.shields.io/github/license/sulimanbenhalim/isend-laravel)
-![PHP Version Support](https://img.shields.io/badge/php-%3E%3D%208.0-blue)
+![PHP Version Support](https://img.shields.io/badge/php-%3E%3D%208.2-blue)
 ![Laravel Version Support](https://img.shields.io/badge/laravel-%3E%3D%2011.0-red)
 
 A Laravel package for sending SMS messages using the iSend SMS API v3. Simple to use and easy to set up.
@@ -16,7 +16,7 @@ A Laravel package for sending SMS messages using the iSend SMS API v3. Simple to
 
 ## Requirements
 
-- PHP 8.0 or higher
+- PHP 8.2 or higher
 - Laravel 11.x or 12.x
 - Guzzle HTTP client
 - Valid iSend SMS API credentials

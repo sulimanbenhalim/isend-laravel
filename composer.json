@@ -1,6 +1,6 @@
 {
     "name": "isend/laravel",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Laravel SDK for iSend SMS API v3",
     "type": "library",
     "keywords": ["laravel", "sms", "notification", "isend", "messaging", "api", "communication"],
@@ -30,13 +30,13 @@
         }
     },
     "require": {
-        "php": "^8.0",
+        "php": "^8.2",
         "illuminate/support": "^11.0|^12.0",
         "guzzlehttp/guzzle": "^7.0"
     },
     "require-dev": {
         "orchestra/testbench": "^10.0",
-        "phpunit/phpunit": "^10.0",
+        "phpunit/phpunit": "^11.5.3",
         "mockery/mockery": "^1.5",
         "friendsofphp/php-cs-fixer": "^3.14",
         "phpstan/phpstan": "^1.10"

@@ -2,6 +2,12 @@
 
 All notable changes to the `isend/laravel` package will be documented in this file.
 
+## 1.0.2 - 2025-05-03
+
+### Updated
+- Updated PHP requirement to 8.2+ for better compatibility
+- Updated PHPUnit to v11.5.3 to work with Orchestra Testbench v10.0
+
 ## 1.0.1 - 2025-05-03
 
 ### Updated
