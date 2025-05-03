@@ -6,16 +6,13 @@
 
 A professional, modern Laravel SDK for sending SMS messages via the iSend SMS API v3. This package provides a clean, fluent interface for interacting with the iSend SMS service.
 
-## Features
+## Key Features
 
-- 📱 Send SMS messages to single or multiple recipients
-- 📅 Schedule messages for future delivery
-- 📊 Track message status and delivery
-- 📝 Full support for all iSend API v3 features
-- ⚙️ Comprehensive error handling and debugging
-- 🔌 Laravel-friendly Facade for easy integration
-- 🔒 Secure API token management
-- 📚 Complete and thorough documentation
+- SMS messaging with single/multiple recipients
+- Message scheduling and delivery tracking
+- Campaign management
+- Error handling with detailed diagnostics
+- Interactive CLI setup wizard
 
 ## Requirements
 
