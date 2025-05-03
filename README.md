@@ -100,7 +100,7 @@ ISend::to(['218929000834', '218929000836', '218929000837'])
     ->send();
 
 // Or as a comma-separated string
-ISend::to('218929000834,218929000835,218929000836')
+ISend::to('218929000834,218929000836,218929000837')
     ->message('Important announcement for all users')
     ->send();
 ```
