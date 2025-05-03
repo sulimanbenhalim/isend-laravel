@@ -1,6 +1,6 @@
 {
     "name": "isend/laravel",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Laravel SDK for iSend SMS API v3",
     "type": "library",
     "keywords": ["laravel", "sms", "notification", "isend", "messaging", "api", "communication"],

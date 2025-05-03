@@ -2,6 +2,11 @@
 
 All notable changes to the `isend/laravel` package will be documented in this file.
 
+## 1.0.1 - 2025-05-03
+
+### Updated
+- Updated Orchestra Testbench to v10.0 for Laravel 12 compatibility
+
 ## 1.0.0 - 2025-05-03
 
 ### Added
