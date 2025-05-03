@@ -1,0 +1,49 @@
+# Composer
+/vendor/
+composer.lock
+
+# PHPUnit
+/.phpunit.cache
+.phpunit.result.cache
+phpunit.xml
+
+# IDE and Editor files
+/.idea/
+/.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Laravel
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/storage/logs/*
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+
+# Misc
+.php_cs.cache
+.php_cs.dist
+.php-cs-fixer.cache
+.php-cs-fixer.dist.php
+*.log
+*.cache
+*.bak
+*.swp
+*.swo
+.phpstan.neon
+.phpstan-baseline.neon
+
+# OS specific files
+.DS_Store
+Thumbs.db

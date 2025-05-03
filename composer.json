@@ -1,0 +1,68 @@
+{
+    "name": "isend/laravel",
+    "version": "1.0.0",
+    "description": "Laravel SDK for iSend SMS API v3",
+    "type": "library",
+    "keywords": ["laravel", "sms", "notification", "isend", "messaging", "api", "communication"],
+    "homepage": "https://isend.ly",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Suliman Benhalim",
+            "email": "soliman.benhalim@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "info@isend.ly",
+        "issues": "https://github.com/sulimanbenhalim/isend-laravel/issues",
+        "source": "https://github.com/sulimanbenhalim/isend-laravel",
+        "docs": "https://github.com/sulimanbenhalim/isend-laravel/blob/master/README.md"
+    },
+    "autoload": {
+        "psr-4": {
+            "ISend\\SMS\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ISend\\SMS\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^11.0|^12.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0",
+        "phpunit/phpunit": "^10.0",
+        "mockery/mockery": "^1.5",
+        "friendsofphp/php-cs-fixer": "^3.14",
+        "phpstan/phpstan": "^1.10"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes",
+        "analyse": "vendor/bin/phpstan analyse"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ISend\\SMS\\ISendServiceProvider"
+            ],
+            "aliases": {
+                "ISend": "ISend\\SMS\\Facades\\ISend"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
