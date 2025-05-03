@@ -4,7 +4,7 @@
 ![PHP Version Support](https://img.shields.io/badge/php-%3E%3D%208.0-blue)
 ![Laravel Version Support](https://img.shields.io/badge/laravel-%3E%3D%2011.0-red)
 
-A professional, modern Laravel SDK for sending SMS messages via the iSend SMS API v3. This package provides a clean, fluent interface for interacting with the iSend SMS service.
+A Laravel package for sending SMS messages using the iSend SMS API v3. Simple to use and easy to set up.
 
 ## Key Features
 
